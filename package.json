@@ -1,0 +1,36 @@
+{
+  "name": "vue-highlight",
+  "version": "1.0.0",
+  "description": "A Vue.js component Highlight",
+  "main": "dist/vue-highlight.js",
+  "scripts": {
+    "build": "rimraf ./dist && webpack --config ./webpack.config.js"
+  },
+  "author": "Joffrey Berrier",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joffreyBerrier/vuejs-highlight"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-runtime": "^6.26.0",
+    "rimraf": "^2.6.3",
+    "vue": "^2.6.6",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^15.6.4",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.6",
+    "webpack": "1.13.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-preset-env": "^1.7.0"
+  }
+}
